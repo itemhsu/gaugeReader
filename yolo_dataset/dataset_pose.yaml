@@ -1,0 +1,9 @@
+path: /home/itemhsu/amtk/gauge/yolo_dataset
+train: train/images
+val: valid/images
+nc: 1
+names:
+- pointer
+kpt_shape:
+- 2
+- 3
