@@ -1,0 +1,15 @@
+path: /home/itemhsu/amtk/gaugeReader/yolo_dataset_1c4p_9k
+train: train/images
+val: valid/images
+test: test/images
+nc: 1
+names:
+- gauge
+kpt_shape:
+- 4
+- 3
+flip_idx:
+- 0
+- 1
+- 2
+- 3

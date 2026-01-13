@@ -1,0 +1,15 @@
+path: /home/itemhsu/amtk/gaugeReader/data/gauge-analog.v1i.yolov11_pose1c
+train: train/images
+val: valid/images
+test: test/images
+nc: 1
+names:
+- gauge
+kpt_shape:
+- 4
+- 3
+kpt_names:
+- min
+- max
+- center
+- tip
