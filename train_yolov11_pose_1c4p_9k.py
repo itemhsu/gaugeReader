@@ -345,7 +345,7 @@ def train_yolov11_pose() -> bool:
         'data': str(dataset_yaml),
         'epochs': 100,
         'imgsz': 960,
-        'batch': 16,
+        'batch': 8,
         'lr0': 0.01,
         'lrf': 0.01,
         'momentum': 0.937,
@@ -388,7 +388,8 @@ def train_yolov11_pose() -> bool:
         print("Initializing YOLOv11-Pose Model")
         print("=" * 60)
 
-        model_variants = ['yolo11s-pose.pt']
+        #model_variants = ['yolo11s-pose.pt']
+        model_variants = ['yolo11m-pose.pt']#out off memory
         model = None
         loaded_variant = None
 
